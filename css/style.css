@@ -4,11 +4,12 @@
 }
 
 :root {
-    --branco-quase: #fff9f1;
-    --amarelo: #ECB437ff;
-    --areia: #DBA463ff;
-    --barro: #BD7447ff;
-    --barro-red:#A0542Fff;
+    --branco-quase: #FDF3E4;
+    --amarelo: #FDAD34;
+    --rosaclaro: #FE97B1;
+    --laranja: #FC5A39;
+    --pink: #FD4880;
+    --rosa-escuro: #A82554;
     --palmeira: #335E62ff;
 }
 
@@ -19,7 +20,7 @@
 .nav-link{
     color: var(--branco-quase) !important;
     font-weight: bold !important;
-    background-color: var(--areia) !important;
+    background-color: var(--rosa-escuro) !important;
     border-radius: 6px !important;
     text-align: center;
 }
@@ -30,5 +31,10 @@
 
 .btn-buscar{
     color: #fff9f1 !important;
-    background-color: var(--barro) !important;
+    background-color: var(--laranja) !important;
+}
+.carousel-item{
+    width: 560px;
+    height: 315px;
+
 }
