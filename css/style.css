@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --branco-quase: #fff9f1;
+    --amarelo: #ECB437ff;
+    --areia: #DBA463ff;
+    --barro: #BD7447ff;
+    --barro-red:#A0542Fff;
+    --palmeira: #335E62ff;
+}
+
+.nav-top {
+    background-color: var(--branco-quase);
+}
+
+.nav-link{
+    color: var(--branco-quase) !important;
+    font-weight: bold !important;
+    background-color: var(--areia) !important;
+    border-radius: 6px !important;
+    text-align: center;
+}
+
+.nav-item{
+    margin: 0.5rem !important;
+}
+
+.btn-buscar{
+    color: #fff9f1 !important;
+    background-color: var(--barro) !important;
+}
