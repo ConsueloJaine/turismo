@@ -33,8 +33,23 @@
     color: #fff9f1 !important;
     background-color: var(--laranja) !important;
 }
-.carousel-item{
-    width: 560px;
-    height: 315px;
 
+.car-img{
+max-height: 50em !important;
+
+}
+
+.divisao{
+    background-color: var(--rosa-escuro) !important;
+    text-align: center !important;
+    color: var(--amarelo) !important;
+    padding: 2em !important;
+
+}
+
+.carousel-caption{
+    width: auto;
+    background-color: #fdad348c !important;
+    color: var(--branco-quase) !important;
+    border-radius: 1em !important;
 }
