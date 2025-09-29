@@ -53,3 +53,93 @@ max-height: 50em !important;
     color: var(--branco-quase) !important;
     border-radius: 1em !important;
 }
+/* Pacotes */
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 0.625em !important;
+}
+
+.card {
+    padding: 1% !important;
+    margin: 0% 1% 1% !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.card-body {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.card .btn {
+    width: auto !important;
+    /* deixa o botão do tamanho do texto */
+    align-self: flex-start !important;
+    /* alinha à esquerda (ou use center se quiser centralizado) */
+}
+
+.sec-pacotes img {
+    width: 20;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Cotatos */
+.titulo {
+    background-color: var(--color3) !important;
+    color: var(--color6) !important;
+    padding: 3% !important;
+}
+
+
+.sec-contatos {
+    padding: 3em !important;
+    margin-bottom: 10% !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    height: 30em !important;
+}
+
+
+/* Mapa e icons */
+.div-mapa {
+    text-align: center !important;
+    align-items: center !important;
+    background-color: var(--color7);
+    border-radius: 1em !important;
+}
+
+.formulario {
+    margin-right: 10% !important;
+    width: 40% !important;
+    background-color: var(--color7);
+    border-radius: 1em !important;
+}
+
+.mapa iframe {
+    /* display: flex !important; */
+    border-radius: 1em !important;
+    justify-content: center !important;
+    /* margin-left: 17% !important; */
+}
+
+.iconredes {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 3em !important;
+    margin-bottom: 1em !important;
+}
+
+
+/* footer */
+footer {
+    background-color: var(--color3) !important;
+    color: var(--color6) !important;
+    padding: 0.5em !important;
+    margin: 0 !important;
+}
